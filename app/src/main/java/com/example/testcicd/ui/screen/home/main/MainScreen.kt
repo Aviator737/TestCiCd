@@ -8,4 +8,5 @@ import com.example.testcicd.R
 @Composable
 fun MainScreen() {
     Text(text = stringResource(id = R.string.main))
+    Text(text = "Hello World!")
 }
