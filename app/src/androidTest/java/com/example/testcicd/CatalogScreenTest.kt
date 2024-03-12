@@ -18,7 +18,7 @@ class CatalogScreenTest {
     @Test
     fun testLabel() {
         rule.setContent { CatalogScreen() }
-        val label = rule.activity.getString(R.string.catalog)
+        val label = "example test fail"
         rule.onNodeWithText(label).assertExists()
     }
 }
