@@ -18,7 +18,7 @@ jobs:
       - uses: actions/setup-java@v4
         with:
           distribution: 'zulu'
-          java-version: ${{ env.JAVA_VERSION }}
+          java-version: '17'
       - uses: gradle/gradle-build-action@v3
         continue-on-error: true
         timeout-minutes: 5
