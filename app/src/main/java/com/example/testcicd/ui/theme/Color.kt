@@ -1,0 +1,130 @@
+package com.example.testcicd.ui.theme
+
+import androidx.compose.ui.graphics.Color
+
+val LightPrimary = Color(26, 189, 133)
+val LightOnPrimary = Color(255, 255, 255)
+val LightPrimaryContainer = Color(189, 255, 230)
+val LightOnPrimaryContainer = Color(15, 139, 97)
+
+val LightSecondary = Color(88, 46, 161)
+val LightOnSecondary = Color(255, 255, 255)
+val LightSecondaryContainer = Color(229, 222, 255)
+val LightOnSecondaryContainer = Color(81, 29, 171)
+
+val LightError = Color(237, 20, 91)
+val LightOnError = Color(255, 255, 255)
+val LightErrorContainer = Color(255, 185, 206)
+val LightOnErrorContainer = Color(142, 0, 75)
+
+val LightBackground = Color(255, 255, 255)
+val LightOnBackground = Color(28, 29, 29)
+
+val LightOutline = Color(217, 218, 218)
+val LightOutlineVariant = Color(226, 227, 227)
+
+val LightShadow = Color(125, 125, 125).copy(alpha = 0.9f)
+
+val LightSurface = Color(255, 255, 255)
+val LightOnSurface = Color(91, 91, 91)
+val LightSurface1 = Color(236, 237, 237)
+val LightSurface2 = Color(230, 232, 232)
+val LightSurface3 = Color(255, 227, 236)
+val LightSurface4 = Color(26, 189, 133).copy(alpha = 0.08f)
+val LightSurface5 = Color(91, 91, 91)
+val LightSurface6 = Color(91, 91, 91).copy(alpha = 0.08f)
+val LightSurface7 = Color(255, 255, 255)
+val LightSurface8 = Color(249, 249, 249)
+
+val LightSpecialSurface = Color(40, 225, 160)
+val LightSpecialSurface2 = Color(189, 255, 230)
+val LightSpecialSurface3 = Color(255, 255, 255).copy(alpha = 0.05f)
+val LightSpecialSurface4 = Color(255, 230, 0)
+val LightSpecialSurface5 = Color(255, 227, 236)
+val LightSpecialSurface6 = Color(222, 255, 229)
+val LightSpecialSurface7 = Color(251, 255, 204)
+val LightSpecialSurface8 = Color(253, 255, 226)
+val LightSpecialSurface9 = Color(255, 233, 224)
+val LightSpecialSurface10 = Color(255, 242, 198)
+val LightSpecialSurface11 = Color(236, 238, 205)
+val LightSpecialSurface12 = Color(241, 226, 202)
+val LightSpecialSurface13 = Color(255, 199, 232)
+val LightSpecialSurface14 = Color(247, 246, 252)
+val LightSpecialSurface15 = Color(212, 246, 236)
+val LightSpecialSurface16 = Color(222, 249, 255)
+val LightSpecialGrey = Color(201, 200, 221)
+
+val LightTextPrimary = Color(69, 69, 69)
+val LightTextSecondary = Color(173, 174, 174)
+
+val LightPricePrimary = Color(69, 69, 69)
+val LightPriceSecondary = Color(255, 255, 255)
+val LightPriceSurfacePrimary = Color(242, 242, 242)
+val LightPriceSurfaceSecondary = Color(237, 20, 91)
+
+
+val DarkPrimary = Color(40, 225, 160)
+val DarkOnPrimary = Color(60, 61, 61)
+val DarkPrimaryContainer = Color(15, 139, 97)
+val DarkOnPrimaryContainer = Color(189, 255, 230)
+
+val DarkSecondary = Color(137, 112, 182)
+val DarkOnSecondary = Color(55, 38, 128)
+val DarkSecondaryContainer = Color(108, 72, 170)
+val DarkOnSecondaryContainer = Color(229, 222, 255)
+
+val DarkError = Color(250, 140, 173)
+val DarkOnError = Color(105, 0, 5)
+val DarkErrorContainer = Color(147, 0, 10)
+val DarkOnErrorContainer = Color(255, 218, 214)
+
+val DarkBackground = Color(60, 61, 61)
+val DarkOnBackground = Color(255, 255, 255)
+
+val DarkOutline = Color(248, 249, 249)
+val DarkOutlineVariant = Color(91, 91, 91)
+
+val DarkShadow = Color(125, 125, 125).copy(alpha = 0.9f)
+
+val DarkSurface = Color(60, 61, 61)
+val DarkOnSurface = Color(180, 181, 181)
+val DarkSurface1 = Color(82, 82, 82)
+val DarkSurface2 = Color(118, 119, 119)
+val DarkSurface3 = Color(255, 185, 206)
+val DarkSurface4 = Color(26, 189, 133).copy(alpha = 0.08f)
+val DarkSurface5 = Color(217, 218, 218)
+val DarkSurface6 = Color(217, 218, 218).copy(alpha = 0.08f)
+val DarkSurface7 = Color(82, 82, 82)
+val DarkSurface8 = Color(56, 57, 57)
+
+val DarkSpecialSurface = Color(137, 248, 201)
+val DarkSpecialSurface2 = Color(189, 255, 230)
+val DarkSpecialSurface3 = Color(28, 29, 29).copy(alpha = 0.05f)
+val DarkSpecialSurface4 = Color(246, 230, 85)
+val DarkSpecialSurface5 = Color(255, 87, 141)
+val DarkSpecialSurface6 = Color(41, 157, 67)
+val DarkSpecialSurface7 = Color(18, 19, 1)
+val DarkSpecialSurface8 = Color(196, 203, 124)
+val DarkSpecialSurface9 = Color(223, 131, 94)
+val DarkSpecialSurface10 = Color(229, 121, 1)
+val DarkSpecialSurface11 = Color(170, 174, 106)
+val DarkSpecialSurface12 = Color(176, 137, 75)
+val DarkSpecialSurface13 = Color(228, 69, 164)
+val DarkSpecialSurface14 = Color(140, 117, 255)
+val DarkSpecialSurface15 = Color(82, 153, 132)
+val DarkSpecialSurface16 = Color(24, 213, 255)
+val DarkSpecialGrey = Color(201, 200, 221)
+
+val DarkTextPrimary = Color(255, 255, 255)
+val DarkTextSecondary = Color(151, 152, 152)
+
+val DarkPricePrimary = Color(255, 255, 255)
+val DarkPriceSecondary = Color(237, 20, 91)
+val DarkPriceSurfacePrimary = Color(93, 93, 93)
+val DarkPriceSurfaceSecondary = Color(255, 255, 255)
+
+val SyncBarColor1 = Color(3, 220, 226)
+val SyncBarColor2 = Color(6, 162, 211)
+val SyncBarColor3 = Color(40, 224, 162)
+val SyncBarColor4 = Color(64, 122, 184)
+val SyncBarColor5 = Color(76, 70, 196)
