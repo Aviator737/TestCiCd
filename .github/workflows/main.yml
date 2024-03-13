@@ -45,4 +45,4 @@ jobs:
           api-level: ${{ matrix.api-level }}
           arch: ${{ steps.avd-info.outputs.arch }}
           target: ${{ steps.avd-info.outputs.target }}
-          script: mv .github/debug.keystore ~/.android; ./gradlew connectedDebugAndroidTest
+          script: mv .github/debug.keystore ~/.android; ./gradlew runMultipleUITests -PcsvPath=".github/stats/data-export.csv" -PhasHeader="true" -PviewsCol="1" -PterminatePercent="80"
